@@ -69,7 +69,7 @@ body.chat #profile div.name {
 }
 
 /* Message Input */
-#message_input, .textwrapper {
+#message_input, .textwrapper, #chats div.chat_display {
   background: #373737 !important;
   color: white !important;
 }
@@ -89,7 +89,7 @@ body.chat #profile div.name {
   background-color: black !important;
 }
 
-#roster div.member.away {
+#roster div.member.away, #roster div.member.xa {
   color: #EA8611 !important;
 }
 
