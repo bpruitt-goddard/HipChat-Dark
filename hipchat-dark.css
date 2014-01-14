@@ -1,6 +1,6 @@
 /* HipChat Dark Theme
  * Description: Inspired by Vibrant Ink Theme for Notepad++
- * Version: 1.0.3 (7/1/2013)
+ * Version: 1.0.4 (1/13/2014)
  * https://github.com/bpruitt-goddard/HipChat-Dark
  * Author: Brian Pruitt-Goddard
  */
@@ -40,6 +40,34 @@ body.chat #autocomplete div.member {
 .chatState.chatBlock.infoBlock {
   background: black !important;
 }
+
+/* Left Chat Panel */
+body.chat .logo, body.chat #tabs, body.chat li {
+  background: #333333 !important; 
+}
+
+body.chat li.selected {
+  background: #999999 !important;
+}
+
+body.chat li.selected a {
+  color: black !important;
+}
+
+body.chat #status_ui {
+  background: #1C1C1C !important;
+}
+
+body.chat #status_chooser div {
+  background-color: #999999 !important;
+  color: black !important;
+}
+
+body.chat #status_chooser div:hover {
+  background-color: green !important;
+  color: black !important;
+}
+
 
 /*My Chats */
 #chats .me, #chats .me .nameBlock {
